@@ -55,7 +55,7 @@ class TodoForm extends Component {
                     {this.props.initialValues &&
                         <div>
                             <label htmlFor="status">
-                                Completed ? &nbsp; &nbsp;
+                                Status
                             </label>
                         <Field name="status"  component="input" checked={this.props.isComplete.status}   onChange={ this.handleInputChange }
                                type="checkbox" />
